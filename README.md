@@ -13,3 +13,28 @@ Reset is enabled CountValue is reset to 000. The counting rate is (i.e. the time
 ## FPGA Board Details
 Zedboard Zynq Evaluation and Development Kit [xc7z020clg484-1](https://www.xilinx.com/products/boards-and-kits/1-8dyf-11.html)
 
+
+## Format of Labs
+1. filename.v    ---> contains the code for the design
+2. filename_tb.v ---> contains the testbench for the design 
+3. filename.bit  ---> contains the bit stream file generated that is to be dumped on the FPGA board for usage
+
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+
+## License
+[MIT](https://github.com/AmiteshBadkul/fpga-lab/blob/master/LICENSE)
+
+<!-- LICENSE -->
+## License
+
+Distributed under the MIT License. See `LICENSE` for more information.
+
+<!-- CONTACT -->
+## Contact
+
+Author - [@AmiteshBadkul](https://github.com/AmiteshBadkul) - f20180764@hyderabad.bits-pilani.ac.in
+
+Project Link: [https://github.com/AmiteshBadkul/fpga-lab](fpga-lab)
+
