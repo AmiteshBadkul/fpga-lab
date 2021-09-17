@@ -6,9 +6,8 @@ This repo contains my attempt at the lab work of the course "EEE F348 - FPGA Bas
 2. 4-bit Counter using push button
 3. 4-bit Counter using the internal clock 
 4. Design a state machine to design an UP-Down 4-bit even counter. The state machine has one input (CountUP) and one 4-bit output (CountValue). When (CountUP=1)
-the counter will have sequence 0-2-4-6-0.. If (CountUp=0) counter will have sequence 6-4-2-0-6... In addition to CountUP there are two more inputs Clk and Reset for normal operation of FSM. When
-Reset is enabled CountValue is reset to 000. The counting rate is (i.e. the time between two successive states is 0.5s).
-
+the counter will have sequence 0-2-4-6-0.. If (CountUp=0) counter will have sequence 6-4-2-0-6... In addition to CountUP there are two more inputs Clk and Reset for normal operation of FSM. When Reset is enabled CountValue is reset to 000. The counting rate is (i.e. the time between two successive states is 0.5s).
+5. Design a state machine to control the tail lights of a 1965 Ford Thunder bird (Figure 1). The tail lights are composed of three lights on each side which operate for the turns as shown in figure 2. The state machine has two inputs (LEFT, RIGHT) and 6 outputs (LC, LB, LA, RA, RB and RC). When (RIGHT=0 and LEFT=0) or when (RIGHT=1 and LEFT=1) no lights will turn ON. If (RIGHT=0 and LEFT=1) then lights LC, LB, and LA will be ON as shown in figure 2(a) indicating LEFT turn. If (RIGHT=1 and LEFT=0) then lights RA, RB, and RC will be ON as shown in figure 2(b) indicating RIGHT turn. In addition to LEFT and RIGHT there are two more inputs Clk and Reset for normal operation of FSM. When Reset is enabled all lights will be OFF. The flashing rate of LEDs is 2Hz (i.e. the time between two successive states is 0.5s). 
 
 ## FPGA Board Details
 Zedboard Zynq Evaluation and Development Kit [xc7z020clg484-1](https://www.xilinx.com/products/boards-and-kits/1-8dyf-11.html)
