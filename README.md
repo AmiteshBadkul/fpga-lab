@@ -17,6 +17,7 @@ Zedboard Zynq Evaluation and Development Kit [xc7z020clg484-1](https://www.xilin
 1. filename.v    ---> contains the code for the design
 2. filename_tb.v ---> contains the testbench for the design 
 3. filename.bit  ---> contains the bit stream file generated that is to be dumped on the FPGA board for usage
+4. filename.xdc  ---> the constraints file
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
