@@ -11,6 +11,7 @@ the counter will have sequence 0-2-4-6-0.. If (CountUp=0) counter will have sequ
 6. Design and implement a control unit for a digital lock. The digital lock has the passcode “1010”. The code should be entered via 2 Push Buttons: one button for entering 1’s (use P16) and another for entering 0’s (use R16). Use a third push button (use T18) to add reset functionality. Based on the entered code, glow an LED for the following outputs
 a)	LED_0 (Use pin T22) will glow indicating PASS, if the entered 4-digit binary code is correct
 b)	LED_1 (Use pin T21) will glow indicating FAIL, if the entered 4-digit binary code is incorrect
+7. Implement a 2-bit x 2-bit Multiplier using IP Integrator.
 
 ## FPGA Board Details
 Zedboard Zynq Evaluation and Development Kit [xc7z020clg484-1](https://www.xilinx.com/products/boards-and-kits/1-8dyf-11.html)
