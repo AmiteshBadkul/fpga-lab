@@ -12,6 +12,7 @@ the counter will have sequence 0-2-4-6-0.. If (CountUp=0) counter will have sequ
 a)	LED_0 (Use pin T22) will glow indicating PASS, if the entered 4-digit binary code is correct
 b)	LED_1 (Use pin T21) will glow indicating FAIL, if the entered 4-digit binary code is incorrect
 7. Implement a 2-bit x 2-bit Multiplier using IP Integrator.
+8. Design and implement a unit which computes O = (AxB) + (CxD) using Vivado IPs. A, B, C and D are 2-bit inputs. O is a 5-bit output. Implement the design on FPGA and show the outputs using on board LEDs. Assume inputs are connected DIP switches.
 
 ## FPGA Board Details
 Zedboard Zynq Evaluation and Development Kit [xc7z020clg484-1](https://www.xilinx.com/products/boards-and-kits/1-8dyf-11.html)
