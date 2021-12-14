@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<probeData version="2" minor="2">
+  <probeset name="EDA_PROBESET" active="true">
+    <probe type="ila" busType="net" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="BSCAN_SWITCH_INDEX" value="0"/>
+        <Option Id="CORE_LOCATION" value="1:0"/>
+        <Option Id="CORE_UUID" value="037F4BE0A02050DFAECAAFDC3BBB2868"/>
+        <Option Id="HUB_CLK_INPUT_FREQ_HZ" value=""/>
+        <Option Id="HW_ILA" value="i3"/>
+        <Option Id="PROBE_PORT" value="0"/>
+        <Option Id="PROBE_PORT_BITS" value="0"/>
+        <Option Id="PROBE_PORT_BIT_COUNT" value="1"/>
+      </probeOptions>
+      <nets>
+        <net name="Rst"/>
+      </nets>
+    </probe>
+    <probe type="ila" busType="net" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="BSCAN_SWITCH_INDEX" value="0"/>
+        <Option Id="CORE_LOCATION" value="1:0"/>
+        <Option Id="CORE_UUID" value="037F4BE0A02050DFAECAAFDC3BBB2868"/>
+        <Option Id="HUB_CLK_INPUT_FREQ_HZ" value=""/>
+        <Option Id="HW_ILA" value="i3"/>
+        <Option Id="PROBE_PORT" value="1"/>
+        <Option Id="PROBE_PORT_BITS" value="0"/>
+        <Option Id="PROBE_PORT_BIT_COUNT" value="1"/>
+      </probeOptions>
+      <nets>
+        <net name="UP_1"/>
+      </nets>
+    </probe>
+    <probe type="ila" busType="bus" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="BSCAN_SWITCH_INDEX" value="0"/>
+        <Option Id="CORE_LOCATION" value="1:0"/>
+        <Option Id="CORE_UUID" value="037F4BE0A02050DFAECAAFDC3BBB2868"/>
+        <Option Id="HUB_CLK_INPUT_FREQ_HZ" value=""/>
+        <Option Id="HW_ILA" value="i3"/>
+        <Option Id="PROBE_PORT" value="2"/>
+        <Option Id="PROBE_PORT_BITS" value="0"/>
+        <Option Id="PROBE_PORT_BIT_COUNT" value="8"/>
+      </probeOptions>
+      <nets>
+        <net name="Count[7]"/>
+        <net name="Count[6]"/>
+        <net name="Count[5]"/>
+        <net name="Count[4]"/>
+        <net name="Count[3]"/>
+        <net name="Count[2]"/>
+        <net name="Count[1]"/>
+        <net name="Count[0]"/>
+      </nets>
+    </probe>
+    <probe type="vio_input" busType="bus" source="netlist" spec="VIO_INPUT_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="ACTIVITY_PERSISTENCE" value="SHORT"/>
+        <Option Id="ACTIVITY_VALUE" value=""/>
+        <Option Id="BSCAN_SWITCH_INDEX" value="0"/>
+        <Option Id="CORE_LOCATION" value="1:1"/>
+        <Option Id="CORE_UUID" value="AD18E6BD322B5BA8B63D8208EEABAF68"/>
+        <Option Id="HUB_CLK_INPUT_FREQ_HZ" value=""/>
+        <Option Id="HW_VIO" value="v2"/>
+        <Option Id="INPUT_VALUE" value=""/>
+        <Option Id="INPUT_VALUE_RADIX" value="HEX"/>
+        <Option Id="PROBE_PORT" value="0"/>
+        <Option Id="PROBE_PORT_BITS" value="0"/>
+        <Option Id="PROBE_PORT_BIT_COUNT" value="8"/>
+      </probeOptions>
+      <nets>
+        <net name="Count_1[7]"/>
+        <net name="Count_1[6]"/>
+        <net name="Count_1[5]"/>
+        <net name="Count_1[4]"/>
+        <net name="Count_1[3]"/>
+        <net name="Count_1[2]"/>
+        <net name="Count_1[1]"/>
+        <net name="Count_1[0]"/>
+      </nets>
+    </probe>
+    <probe type="vio_output" busType="net" source="netlist" spec="VIO_OUTPUT_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="BSCAN_SWITCH_INDEX" value="0"/>
+        <Option Id="CORE_LOCATION" value="1:1"/>
+        <Option Id="CORE_UUID" value="AD18E6BD322B5BA8B63D8208EEABAF68"/>
+        <Option Id="HUB_CLK_INPUT_FREQ_HZ" value=""/>
+        <Option Id="HW_VIO" value="v2"/>
+        <Option Id="OUTPUT_VALUE" value=""/>
+        <Option Id="OUTPUT_VALUE_RADIX" value="BINARY"/>
+        <Option Id="PROBE_PORT" value="0"/>
+        <Option Id="PROBE_PORT_BITS" value="0"/>
+        <Option Id="PROBE_PORT_BIT_COUNT" value="1"/>
+      </probeOptions>
+      <nets>
+        <net name="Rst_1"/>
+      </nets>
+    </probe>
+    <probe type="vio_output" busType="net" source="netlist" spec="VIO_OUTPUT_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="BSCAN_SWITCH_INDEX" value="0"/>
+        <Option Id="CORE_LOCATION" value="1:1"/>
+        <Option Id="CORE_UUID" value="AD18E6BD322B5BA8B63D8208EEABAF68"/>
+        <Option Id="HUB_CLK_INPUT_FREQ_HZ" value=""/>
+        <Option Id="HW_VIO" value="v2"/>
+        <Option Id="OUTPUT_VALUE" value=""/>
+        <Option Id="OUTPUT_VALUE_RADIX" value="BINARY"/>
+        <Option Id="PROBE_PORT" value="1"/>
+        <Option Id="PROBE_PORT_BITS" value="0"/>
+        <Option Id="PROBE_PORT_BIT_COUNT" value="1"/>
+      </probeOptions>
+      <nets>
+        <net name="UP"/>
+      </nets>
+    </probe>
+  </probeset>
+</probeData>
